@@ -27,7 +27,7 @@ jobs:
 
     - name: Dotnet Publish
       run: dotnet publish --configuration Release -o netcore 
-      
+
   automerge:
      name: Merge Pull Request
      runs-on: [ubuntu-latest]
