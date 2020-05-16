@@ -34,6 +34,13 @@ jobs:
         name: artifact
         path: netcore.zip
 
+  teste:
+    runs-on: ubuntu-latest
+    steps:
+      
+    - name: test
+      run: echo test
+
 
       
 
