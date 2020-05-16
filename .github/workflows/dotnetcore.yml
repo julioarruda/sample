@@ -28,6 +28,12 @@ jobs:
       with:
         args: zip -qq -r netcore.zip DevSecOps
 
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v1
+      with:
+        name: artifact
+        path: netcore.zip
+
 
       
 
