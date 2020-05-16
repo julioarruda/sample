@@ -23,6 +23,10 @@ jobs:
 
     - name: Dotnet Publish
       run: dotnet publish --configuration Release -o netcore 
+    
+    - uses: montudor/action-zip@v0.1.0
+      with:
+        args: zip -qq -r netcore.zip DevSecOps
 
 
       
